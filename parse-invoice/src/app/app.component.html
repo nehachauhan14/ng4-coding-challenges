@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <p>Please upload the file you want to parse.</p>
+  <div>
+    <input type="file" id="file" (change)="fileUpload($event)"/>
+    <br><br>
+      <span>Input File</span>
+       <textarea name="Input File" placeholder="Input File"  cols="30" rows="10" [value]="fileText" ></textarea>
+       
+    <button (click) = "get7segment()">
+    Parse
+    </button>
+      <span>Output File</span>
+    <textarea name="Output" id ="Output" placeholder="Output content"  cols="30" rows="10" [value]="retValueFun()"></textarea>
+    
+  </div>
+<!-- 
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Leave a comment"></textarea>
+    </mat-form-field>
+  </form>
+   -->
+
+
+</div>
