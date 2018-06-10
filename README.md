@@ -4,7 +4,7 @@ This repo contains following projects/files :
 1. User story : Parse invoice numbers
 2. The Marco Polo Game
 3. Unit test for Marco polo using Jasmine 
-4. How can you limit the scope on a directive and why would you do this? 
+4. How can you limit the scope on a directive and why would you do this? (Answer written at the bottom of this file.)
     
 ## **Parse invoice number application** 
 
